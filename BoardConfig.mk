@@ -12,9 +12,6 @@ DEVICE_PATH := device/xiaomi/cmi
 # Display
 TARGET_SCREEN_DENSITY := 440
 
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/cmi.config
-
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := cmi
 
